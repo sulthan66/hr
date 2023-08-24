@@ -1,0 +1,332 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:400,700,900");
+
+/* * {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+} */
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 8%;
+  padding-right: 8%;
+  background-image: url(/img/kendall-henderson-Pj6TgpS_Vt4-unsplash\ 1.png);
+}
+
+nav img {
+  height: 150px;
+}
+
+nav ul {
+  background: linear-gradient(
+    133deg,
+    rgba(255, 255, 255, 0.4) 0%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  padding-left: 100px;
+}
+
+nav ul li {
+  list-style-type: none;
+  display: inline-block;
+  padding: 10px 25px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 40px;
+  text-transform: capitalize;
+}
+
+nav ul li a:hover {
+  color: #ffd369;
+  transition: 0.6s;
+}
+
+.btn {
+  display: inline-block;
+  border-radius: 7px;
+  border: none;
+  background: #412732;
+  color: white;
+  font-family: inherit;
+  text-align: center;
+  text-decoration: none;
+  font-size: 25px;
+  box-shadow: 0px 14px 56px -11px #412732;
+  width: 10em;
+  padding: 1em;
+  transition: all 0.4s;
+  cursor: pointer;
+}
+
+.btn span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.4s;
+}
+
+.btn span:after {
+  content: "it now";
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.7s;
+}
+
+.btn:hover span {
+  padding-right: 3.55em;
+}
+
+.btn:hover span:after {
+  opacity: 4;
+  right: 0;
+}
+
+/* DROPDOWN MENU */
+.services {
+  position: relative;
+}
+
+.dropdown {
+  padding: 1em 0;
+  position: absolute; /*WITH RESPECT TO PARENT*/
+  display: none;
+  border-radius: 8px;
+  top: 35px;
+}
+
+.dropdown li + li {
+  margin-top: 10px;
+}
+
+.dropdown li {
+  padding: 0.5em 1em;
+  width: 8em;
+  text-align: center;
+}
+
+.dropdown li:hover {
+  background-color: #412732;
+}
+
+.services:hover .dropdown {
+  display: block;
+}
+
+/*footer*/
+.col_white_amrc {
+  color: #ffffff;
+}
+
+footer {
+  width: 100%;
+  background-color: #000000;
+  min-height: 250px;
+  padding: 10px 0px 25px 0px;
+}
+
+.pt2 {
+  padding-top: 40px;
+  margin-bottom: 20px;
+}
+
+footer p {
+  font-size: 20px;
+  color: #ccc;
+  padding-bottom: 0px;
+  margin-bottom: 8px;
+}
+
+.mb10 {
+  padding-bottom: 15px;
+}
+
+.footer_ul_amrc {
+  margin: 0px;
+  list-style-type: none;
+  font-size: 30px;
+  padding: 0px 0px 10px 0px;
+}
+
+.footer_ul_amrc li {
+  padding: 0px 0px 5px 0px;
+}
+
+.footer_ul_amrc li a {
+  color: #ccc;
+  text-decoration: none;
+}
+
+.footer_ul_amrc li a:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+.fleft {
+  float: left;
+}
+
+.padding-right {
+  padding-right: 10px;
+}
+
+.footer_ul2_amrc {
+  margin: 0px;
+  list-style-type: none;
+  padding: 0px;
+}
+
+.footer_ul2_amrc li a:hover {
+  text-decoration: none;
+}
+
+.footer_ul2_amrc li i {
+  margin-top: 5px;
+}
+
+.weed {
+  color: #ccc;
+  text-decoration: none;
+}
+
+/* Main */
+
+/* #one {
+  display: inline-flex;
+  align-items: center;
+  gap: 92px;
+  padding: 20px 500px 20px 500px;
+}
+
+#one h1 {
+  color: #412732;
+  font-family: Poppins;
+  font-size: 70px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+#one p {
+  color: #000;
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 35px;
+  text-align: justify;
+
+}
+#one div img {
+  border: #412732 solid 1px;
+  border-radius: 10px;
+}
+
+#two {
+  display: block;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+  padding: 20px 500px 20px 500px;
+  text-align: justify;
+  color: #000;
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 35px;
+}
+
+#two h1 {
+  color: #412732;
+  font-family: Poppins;
+  font-size: 70px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+#two p {
+  color: #000;
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 35px;
+}
+
+ #three {
+  display: block;
+  text-align: center;
+  padding: 20px 0px 40px 0px;
+} */
+
+/* Mobile styles (up to 767px) */
+@import url("https://fonts.googleapis.com/css?family=Poppins:400,700,900");
+
+/* Rest of your CSS code */
+
+/* Mobile styles (up to 767px) */
+@media (max-width: 767px) {
+  nav {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+
+  nav ul {
+    padding-left: 0;
+  }
+
+  nav ul li {
+    padding: 5px 10px;
+  }
+
+  nav ul li a {
+    font-size: 24px;
+  }
+
+  nav img {
+    height: 120px;
+  }
+
+  .btn {
+    font-size: 18px;
+    padding: 0.8em;
+  }
+
+  .footer_ul_amrc {
+    font-size: 24px;
+  }
+
+  #one h1 {
+    font-size: 40px;
+  }
+
+  #one p {
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  #one div img {
+    border: #412732 solid 1px;
+    border-radius: 8px;
+  }
+
+  #two h1 {
+    font-size: 26px;
+  }
+
+  #two p {
+    font-size: 14px;
+    line-height: 18px;
+  }
+}

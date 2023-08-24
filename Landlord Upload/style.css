@@ -1,0 +1,335 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:400,500,600,700,800,900");
+
+*{margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+
+    /* styling for navigation bar */
+    .navbar{
+        background: url(/FRONTEND/images/nav.png), lightgray -139.039px 0px / 114.961% 857.47% no-repeat;
+        padding-top: 10px;
+        padding-bottom: 10px;
+         padding-left: 5%;
+        padding-right: 6%;
+        height: 130px;
+
+    }
+   
+     .nav-link{
+        color: #FFF;
+text-align: center;
+font-family: Poppins;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 37px;
+padding-top: 10px;
+padding-bottom: 10px;
+
+    }
+        
+    .nav-item{
+        padding-left: 30px;
+
+    }
+    
+    .navbar-nav{
+        border-radius: 2px;
+background: linear-gradient(133deg, rgba(255, 255, 255, 0.40) 0%, rgba(255, 255, 255, 0.00) 100%);
+backdrop-filter: blur(25px);
+padding-left: 60px;
+padding: 10px;
+
+    }
+
+    .nav-item :hover{
+        color: #ffd369;
+  transition: 0.6s;
+    }
+
+    .dropdown-menu{
+        background: linear-gradient(133deg, rgba(255, 255, 255, 0.40) 0%, rgba(255, 255, 255, 0.00) 100%);
+        color: #FFF;
+        text-align: center;
+        font-family: Poppins;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 37px;
+    }
+
+    .dropdown-menu :hover{
+        background-color: #412732;
+    }
+
+    .btn {
+      display: inline-block;
+      border-radius: 5px;
+      border: none;
+      background: #412732;
+      color: #FFF;
+      font-family: Poppins;
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: 37px; /* 185% */
+      text-decoration: none;
+      box-shadow: 0px 14px 56px -11px #412732;
+      width: 180px;
+      padding: 15px;
+      transition: all 0.4s;
+      cursor: pointer;
+    }
+
+      .btn:hover{
+        color: black;
+        background-color: #ffd369;
+        transition: 0.6s;
+      }
+
+    
+      /* styling for form */
+
+      .outter-form{
+        background: #FFF;
+box-shadow: 20px 30px 70px 0px rgba(0, 0, 0, 0.25);
+padding: 50px 50px 100px 50px;
+margin-left: 60px;
+margin-right: 60px;
+margin-bottom: 80px;
+margin-top: 250px;
+      }
+
+      .image{
+        margin-top: 10px;
+        position: absolute;
+        z-index: -1;
+      }
+
+.pages{
+    float: right;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.back{
+  padding-right: 50px;
+  padding-top: 5px;
+}
+
+.heading{
+    color: #000;
+font-family: Poppins;
+font-size: 30px;
+font-style: normal;
+font-weight: 500;
+line-height: 33.468px; /* 111.561% */
+}
+.heading2{
+    color: #000;
+font-family: Poppins;
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: 33.468px; /* 185.935% */
+}
+.heading3{
+    color: #000;
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 33.468px; /* 209.177% */
+}
+
+span{
+    color: #ff1616;
+}
+
+label{
+    color: #000;
+text-align: center;
+font-family: Poppins;
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: 33.468px; /* 185.935% */
+padding-bottom: 15px;
+padding-top: 40px;
+}
+
+.form-control{
+    border: 2px solid #412732;
+  background: #FCFCFC;
+  border-radius: 0px;
+  padding-bottom: 40px;
+  }
+
+  
+
+/* styling for upload page */
+hr{
+border-top: 4px solid #feca51;
+padding: 0%;
+
+}
+
+.prev-btn{
+  border: none;
+  background-color: white;
+  
+}
+
+
+/* styling for the payment section */
+.account{
+  padding-top: 150px;
+}
+.account p{
+  color: #412732;
+font-family: Poppins;
+font-size: 60px;
+font-style: normal;
+font-weight: 500;
+line-height: 80px; /* 114.286% */
+ } 
+
+  .receipt{
+    color: #000;
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 33.468px; /* 185.935% */
+  }
+
+  .upload{
+    text-decoration: none;
+    /* border-radius: 3px; */
+    color: #FFF;
+  background: #412732;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  }
+
+.continue{
+  text-decoration: none;
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 37px; /* 185% */
+    border-radius: 3px;
+    margin: 10px;
+      background: #412732;
+      padding-bottom: 10px;
+      padding-top: 10px;
+      padding-left: 40px;
+      padding-right: 40px;
+      float: right;
+}
+.submit-btn{
+  text-decoration: none;
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 37px; /* 185% */
+    border-radius: 3px;
+    margin: 10px;
+      background: #412732;
+      padding-bottom: 10px;
+      padding-top: 10px;
+      padding-left: 40px;
+      padding-right: 40px;
+      float: right;
+}
+
+/* styling for successful page */
+
+.success{
+  padding-top: 50px;
+  padding: 150px;
+  padding-right: 150px;
+padding-bottom: 50px;
+}
+
+.home{
+  color: #FFF;
+font-family: Poppins;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: 37px; /* 185% */
+border-radius: 5px;
+background: #412732;
+text-decoration: none;
+width: 150px;
+padding: 20px;
+
+}
+
+
+/* styling for multiple form */
+.step{
+  display: none;
+}
+
+.step.active{
+  display: block;
+}
+
+
+
+
+
+
+
+           /* styling for the footer */
+.footer{
+    background-color: #000;
+    color: #FFF;
+    padding-top: 60px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+  }
+  
+  .footer a{
+    text-decoration: none;
+    color: white;
+  }
+  
+  .heading10{
+    color: #F1F1F1;
+  font-family: Poppins;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 44.4px; /* 158.571% */
+  }
+  
+  .heading11{
+    display: flex;
+    padding-left: 100px;    color: #F1F1F1;
+  font-family: Poppins;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 44.4px; /* 158.571% */
+  }
+  .scroll-top{
+    float: right;}
+  
+  .end{
+  display: flex;
+  justify-content: space-between;}

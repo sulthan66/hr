@@ -1,0 +1,231 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:400,500,600,700,");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+* {
+  scroll-behavior: smooth;
+}
+
+/* styling for navigation bar */
+.navbar {
+  background-image: url(/img/kendall-henderson-Pj6TgpS_Vt4-unsplash\ 1.png);
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 5%;
+  padding-right: 6%;
+}
+
+.navbar-toggler- {
+  outline: none;
+}
+.nav-link {
+  color: #fff;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 37px;
+  text-align: right;
+  float: right;
+}
+
+.nav-item {
+  padding-left: 30px;
+}
+
+.navbar-nav {
+  border-radius: 2px;
+  background: linear-gradient(
+    133deg,
+    rgba(255, 255, 255, 0.4) 0%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  padding-left: 60px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 60px;
+}
+
+.nav-item :hover {
+  color: #ffd369;
+  transition: 0.6s;
+}
+
+.dropdown-menu {
+  background: linear-gradient(
+    133deg,
+    rgba(255, 255, 255, 0.4) 0%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  color: #fff;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 37px;
+}
+
+.dropdown-menu :hover {
+  background-color: #412732;
+}
+
+.btn {
+  display: inline-block;
+  border-radius: 5px;
+  border: none;
+  background: #412732;
+  color: #fff;
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 37px; /* 185% */
+  text-decoration: none;
+  box-shadow: 0px 14px 56px -11px #412732;
+  width: 180px;
+  padding: 15px;
+  transition: all 0.4s;
+  cursor: pointer;
+}
+
+.btn:hover {
+  color: black;
+  background-color: #ffd369;
+  transition: 0.6s;
+  cursor: pointer;
+}
+
+/* styling for the footer */
+.footer {
+  background-color: #000;
+  color: #fff;
+  padding-top: 60px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+}
+
+.footer a {
+  text-decoration: none;
+  color: white;
+}
+
+.heading10 {
+  color: #f1f1f1;
+  font-family: Poppins;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 44.4px; /* 158.571% */
+}
+
+.heading11 {
+  display: flex;
+  padding-left: 100px;
+  color: #f1f1f1;
+  font-family: Poppins;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 44.4px; /* 158.571% */
+}
+.scroll-top {
+  float: right;
+}
+
+.end {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Main */
+
+#one {
+  color: #000;
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 40px;
+  padding: 150px 600px 40px 600px;
+  text-align: justify;
+}
+
+#one span {
+  color: #412732;
+  font-family: Poppins;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 40px;
+}
+
+.cards_wrap {
+  padding: 30px 600px 60px 600px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.cards_wrap .card_inner {
+  background: #fff;
+  border-radius: 5px;
+  padding: 35px 20px;
+  min-width: 225px;
+  min-height: 315px;
+  max-height: 370px;
+  width: 100%;
+}
+
+.cards_wrap .card_item {
+  border: 3px solid #412732;
+  background: #f8f8f8;
+  box-shadow: 0px 20px 30px 0px rgba(0, 0, 0, 0.25);
+}
+
+.cards_wrap .card_item img {
+  width: 80px;
+  height: 80px;
+  margin-bottom: 5px;
+  padding: 0px 0px 0px 20px;
+}
+
+.cards_wrap .card_item .role_name {
+  color: #412732;
+  font-weight: 500;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-size: 50px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  padding: 10px 20px 0px 20px;
+}
+
+.cards_wrap .card_item .real_name {
+  color: #412732;
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 25px;
+  margin: 5px 0 10px;
+  text-decoration: none;
+  padding: 10px 20px 0px 20px;
+}
+
+.cards_wrap .card_item .film {
+  color: #000;
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25px;
+  padding: 10px 20px 0px 20px;
+}

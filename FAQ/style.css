@@ -1,0 +1,255 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:400,500,600,700,");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+* {
+  scroll-behavior: smooth;
+}
+
+/* styling for navigation bar */
+.navbar {
+  background-image: url(/img/kendall-henderson-Pj6TgpS_Vt4-unsplash\ 1.png);
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 5%;
+  padding-right: 6%;
+}
+
+.navbar-toggler- {
+  outline: none;
+}
+.nav-link {
+  color: #fff;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 37px;
+  text-align: right;
+  float: right;
+}
+
+.nav-item {
+  padding-left: 30px;
+}
+
+.navbar-nav {
+  border-radius: 2px;
+  background: linear-gradient(
+    133deg,
+    rgba(255, 255, 255, 0.4) 0%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  padding-left: 60px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 60px;
+}
+
+.nav-item :hover {
+  color: #ffd369;
+  transition: 0.6s;
+}
+
+.dropdown-menu {
+  background: linear-gradient(
+    133deg,
+    rgba(255, 255, 255, 0.4) 0%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  color: #fff;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 37px;
+}
+
+.dropdown-menu :hover {
+  background-color: #412732;
+}
+
+.btn {
+  display: inline-block;
+  border-radius: 5px;
+  border: none;
+  background: #412732;
+  color: #fff;
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 37px; /* 185% */
+  text-decoration: none;
+  box-shadow: 0px 14px 56px -11px #412732;
+  width: 180px;
+  padding: 15px;
+  transition: all 0.4s;
+  cursor: pointer;
+}
+
+.btn:hover {
+  color: black;
+  background-color: #ffd369;
+  transition: 0.6s;
+  cursor: pointer;
+}
+
+/* styling for the footer */
+.footer {
+  background-color: #000;
+  color: #fff;
+  padding-top: 60px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+}
+
+.footer a {
+  text-decoration: none;
+  color: white;
+}
+
+.heading10 {
+  color: #f1f1f1;
+  font-family: Poppins;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 44.4px; /* 158.571% */
+}
+
+.heading11 {
+  display: flex;
+  padding-left: 100px;
+  color: #f1f1f1;
+  font-family: Poppins;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 44.4px; /* 158.571% */
+}
+.scroll-top {
+  float: right;
+}
+
+.end {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Main */
+#one {
+  background: url(/img/faq\ b.jpg), lightgray 50% / cover no-repeat;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  max-height: fit-content;
+  padding-top: 500px;
+}
+
+#one div {
+  display: inline-flex;
+  padding: 21px 98px;
+  flex-direction: column;
+  align-items: flex-start;
+  background: rgba(83, 83, 83, 0.8);
+  backdrop-filter: blur(2px);
+  margin: 700px 0px 40px 700px;
+}
+
+#one div h2 {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+#one div p {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-align: justify;
+}
+
+/* .faq-heading {
+  border-bottom: #777;
+} */
+
+.faq-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 150px 0px 190px 0px;
+}
+.hr-line {
+  width: 60%;
+  margin: auto;
+  padding: 10px 20px;
+}
+/* Style the buttons that are used to open and close the faq-page body */
+.faq-page {
+  /* background-color: #eee; */
+  color: #412732;
+  cursor: pointer;
+  padding: 30px 20px;
+  width: 60%;
+  border: 2px solid #412732;
+  box-shadow: 0px 20px 30px 0px rgba(0, 0, 0, 0.25);
+  outline: none;
+  transition: 0.4s;
+  margin: auto;
+  font-family: Poppins;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.faq-body {
+  margin: auto;
+  text-align: justify;
+  width: 50%;
+  padding: auto;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active,
+.faq-page:hover {
+  background-color: #412732;
+  color: #ccc;
+}
+
+/* Style the faq-page panel. Note: hidden by default */
+.faq-body {
+  padding: 0 18px;
+  background-color: white;
+  display: none;
+  overflow: hidden;
+  box-shadow: 0px 20px 30px 0px rgba(0, 0, 0, 0.25);
+}
+
+.faq-page:after {
+  content: "\02795";
+  /* Unicode character for "plus" sign (+) */
+  font-size: 25px;
+  color: #412732;
+  float: right;
+  margin-left: 5px;
+  border: 2px solid #412732;
+}
+
+.active:after {
+  content: "\2796";
+  /* Unicode character for "minus" sign (-) */
+}

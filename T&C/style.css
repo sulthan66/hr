@@ -1,0 +1,210 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:400,500,600,700,800,900");
+
+*{margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+
+    /* styling for navigation bar */
+    .navbar{
+        background: url(/FRONTEND/images/nav.png), lightgray -139.039px 0px / 114.961% 857.47% no-repeat;
+        padding-top: 10px;
+        padding-bottom: 10px;
+         padding-left: 5%;
+        padding-right: 6%;
+        height: 130px;
+
+    }
+   
+     .nav-link{
+        color: #FFF;
+text-align: center;
+font-family: Poppins;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 37px;
+padding-top: 10px;
+padding-bottom: 10px;
+
+    }
+        
+    .nav-item{
+        padding-left: 30px;
+
+    }
+    
+    .navbar-nav{
+        border-radius: 2px;
+background: linear-gradient(133deg, rgba(255, 255, 255, 0.40) 0%, rgba(255, 255, 255, 0.00) 100%);
+backdrop-filter: blur(25px);
+padding-left: 60px;
+padding: 10px;
+
+    }
+
+    .nav-item :hover{
+        color: #ffd369;
+  transition: 0.6s;
+    }
+
+    .dropdown-menu{
+        background: linear-gradient(133deg, rgba(255, 255, 255, 0.40) 0%, rgba(255, 255, 255, 0.00) 100%);
+        color: #FFF;
+        text-align: center;
+        font-family: Poppins;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 37px;
+    }
+
+    .dropdown-menu :hover{
+        background-color: #412732;
+    }
+
+    .btn {
+      display: inline-block;
+      border-radius: 5px;
+      border: none;
+      background: #412732;
+      color: #FFF;
+      font-family: Poppins;
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: 37px; /* 185% */
+      text-decoration: none;
+      box-shadow: 0px 14px 56px -11px #412732;
+      width: 180px;
+      padding: 15px;
+      transition: all 0.4s;
+      cursor: pointer;
+    }
+
+      .btn:hover{
+        color: black;
+        background-color: #ffd369;
+        transition: 0.6s;
+      }
+
+      .img-fluid{
+        margin-top: 10px;
+      }
+      /* styling for text body */
+      .body{
+        display: inline-flex;
+flex-direction: column;
+align-items: flex-start;
+
+      }
+
+.top-text{
+padding: 30px;
+margin-top: 12px;
+margin-left: 20px;
+margin-right: 20px;
+
+}
+.tc-text{display: inline;
+    text-align: start;
+    padding: 40px;
+    margin-left: 20px;
+    margin-right: 50px;
+
+}
+
+      strong{
+        color: #412732;
+font-family: Poppins;
+font-size: 30px;
+font-style: normal;
+font-weight: 600;
+line-height: 35px; /* 116.667% */
+      }
+      span{color: #412732;
+        font-family: Poppins;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 35px;
+
+      }
+.heading1{
+
+    color: #412732;
+    font-family: Poppins;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 35px;
+}
+      .heading2{
+    color: #412732;
+font-family: Poppins;
+font-size: 40px;
+font-style: normal;
+font-weight: 400;
+line-height: 35px;
+}
+
+.text{color: #000;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 35px;
+
+}
+
+.heading3{
+    color: #412732;
+    font-family: Poppins;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 35px; 
+}
+
+/* styling for the footer */
+.footer{
+    background-color: #000;
+    color: #FFF;
+    padding-top: 60px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+}
+
+.footer a{
+    text-decoration: none;
+    color: white;
+}
+.contact{
+    align-self: self-end;
+    color: #000;
+}
+
+.heading10{
+    color: #F1F1F1;
+font-family: Poppins;
+font-size: 28px;
+font-style: normal;
+font-weight: 500;
+line-height: 44.4px; /* 158.571% */
+}
+
+.heading11{
+    display: flex;
+    padding-left: 100px;    color: #F1F1F1;
+font-family: Poppins;
+font-size: 28px;
+font-style: normal;
+font-weight: 500;
+line-height: 44.4px; /* 158.571% */
+}
+.scroll-top{
+    float: right;}
+
+.end{
+display: flex;
+justify-content: space-between;}

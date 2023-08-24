@@ -1,0 +1,232 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:400,500,600,700,");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+* {
+  scroll-behavior: smooth;
+}
+
+/* styling for navigation bar */
+.navbar {
+  background-image: url(/img/kendall-henderson-Pj6TgpS_Vt4-unsplash\ 1.png);
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 5%;
+  padding-right: 6%;
+}
+
+.navbar-toggler- {
+  outline: none;
+}
+.nav-link {
+  color: #fff;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 37px;
+  text-align: right;
+  float: right;
+}
+
+.nav-item {
+  padding-left: 30px;
+}
+
+.navbar-nav {
+  border-radius: 2px;
+  background: linear-gradient(
+    133deg,
+    rgba(255, 255, 255, 0.4) 0%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  padding-left: 60px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 60px;
+}
+
+.nav-item :hover {
+  color: #ffd369;
+  transition: 0.6s;
+}
+
+.dropdown-menu {
+  background: linear-gradient(
+    133deg,
+    rgba(255, 255, 255, 0.4) 0%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  color: #fff;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 37px;
+}
+
+.dropdown-menu :hover {
+  background-color: #412732;
+}
+
+.btn {
+  display: inline-block;
+  border-radius: 5px;
+  border: none;
+  background: #412732;
+  color: #fff;
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 37px; /* 185% */
+  text-decoration: none;
+  box-shadow: 0px 14px 56px -11px #412732;
+  width: 180px;
+  padding: 15px;
+  transition: all 0.4s;
+  cursor: pointer;
+}
+
+.btn:hover {
+  color: black;
+  background-color: #ffd369;
+  transition: 0.6s;
+  cursor: pointer;
+}
+
+/* styling for the footer */
+.footer {
+  background-color: #000;
+  color: #fff;
+  padding-top: 60px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+}
+
+.footer a {
+  text-decoration: none;
+  color: white;
+}
+
+.heading10 {
+  color: #f1f1f1;
+  font-family: Poppins;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 44.4px; /* 158.571% */
+}
+
+.heading11 {
+  display: flex;
+  padding-left: 100px;
+  color: #f1f1f1;
+  font-family: Poppins;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 44.4px; /* 158.571% */
+}
+.scroll-top {
+  float: right;
+}
+
+.end {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+/* Main */
+
+.products {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.product-card {
+  padding: 2%;
+  flex-grow: 1;
+  flex-basis: 16%;
+  padding: 50px 50px 100px 100px;
+  display: flex; /* so child elements can use flexbox stuff too! */
+}
+
+.product-card {
+  flex: 1 16%;
+}
+
+.product-image img {
+  max-width: 100%;
+}
+
+.product-info {
+  margin-top: auto;
+}
+
+@media (max-width: 920px) {
+  .product-card {
+    flex: 1 21%;
+  }
+}
+
+#one {
+  display: flex;
+  align-items: center;
+  gap: 47px;
+  padding: 70px 150px 70px 150px;
+  margin-left: 150px;
+}
+
+#one div img {
+  width: 962px;
+  height: 642px;
+  border: #412732 solid 1px;
+  border-radius: 10px;
+}
+
+.homm h4 {
+  color: #000;
+  font-family: Poppins;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 25px;
+  margin: 20px 150px 20px 150px;
+}
+
+.homm p {
+  color: #000;
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+  text-align: justify;
+  width: 484px;
+  margin: 20px 150px 20px 150px;
+}
+
+.homm button {
+  display: flex;
+  width: 237px;
+  padding: 10px 10px 10px 20px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  background: #412732;
+  color: #fff;
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 30px;
+  margin: 20px 150px 20px 150px;
+}
